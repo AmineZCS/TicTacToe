@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Outfit:wght@400;700&display=swap');
+#container{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50% ,5%);
+	display: flex;
+	flex-direction: column;
+	gap: 0rem;
+	height:500px ;
+	width:700px ;
+	justify-content: space-evenly;
+	align-items: center;
+	/*Fromhttps:;
+	//css.glass*/background: rgba(178, 254, 250, 0.2);
+	border-radius: 0.5%;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.8px);
+	-webkit-backdrop-filter: blur(10.8px);
+	border: 1px solid rgba(178, 254, 250, 0.24);
+	-webkit-border-radius: 0.5%;
+	-moz-border-radius: 0.5%;
+	-ms-border-radius: 0.5%;
+	-o-border-radius: 0.5%;
+	-webkit-transform:translate(-50% ,5%);
+	-moz-transform:translate(-50% ,5%);
+	-ms-transform:translate(-50% ,5%);
+	-o-transform:translate(-50% ,5%);
+}
+body{
+	position: relative;
+}
+html{
+	background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #13a2bf, #6bfff8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1ea1bb, #8806df); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Mulish', sans-serif;
+}
+#ScoreTable{
+	display: none;
+	width: 7rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+.input{
+	width: 7rem;
+	height: 3rem;
+	background: rgba(178, 254, 250, 0.2);
+	border: none;
+	overflow: hidden;
+	color: #B2FEFA;
+	transition: all 1s;
+	transition-timing-function: cubic-bezier(0,.68,1,.02);
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+}
+input:hover{
+	
+	background: none;
+	color: #B2FEFA;
+	border: 1px solid #B2FEFA;
+}
+
+#buttons{
+	display: flex;
+	gap: .3rem;
+}
+.cell{
+	border-radius: 0.5%;
+	-webkit-border-radius: 0.5%;
+	-moz-border-radius: 0.5%;
+	-ms-border-radius: 0.5%;
+	-o-border-radius: 0.5%;
+	background: rgba(178, 254, 250, 0.2);
+	border: none;
+	overflow: hidden;
+	color: #B2FEFA;
+	transition: all 1s;
+	transition-timing-function: cubic-bezier(0,.68,1,.02);
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	box-sizing: border-box;
+}
+.cell:hover{
+	
+	background: none;
+	color: #B2FEFA;
+	border: 1px solid #B2FEFA;
+}
+#otherButtons{
+	display: none;
+}
